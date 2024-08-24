@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                               Icon(Icons.public, color: Colors.white),
                               SizedBox(
                                   width:
-                                      5), // Thêm khoảng cách giữa Icon và Text
+                                      5),
                               Text(
                                 'No Internet Connection',
                                 textAlign: TextAlign.center,
