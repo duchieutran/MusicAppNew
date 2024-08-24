@@ -1,17 +1,77 @@
-# music_app
+# giới thiệu về dự án
+ - Dự án vẫn còn đang được update thêm.
+ - Thời gian bắt đầu dự án : 15/08/2024
+ - Thời gian kết thúc : Đây là 1 dự án được làm trong quá trình học cho nên chưa có thời gian kết thúc mà sẽ update dần 
 
-A new Flutter project.
 
-## Getting Started
+# cách package dùng trong ứng dụng
+ - mobx
+ - flutter_screenutil
+ - dio || http
+ - sliding_clipped_nav_bar : custom BottomNavigatorBar
+ - pretty_dio_logger : hiển thị các request và respose
+ - just_audio : chưa tìm hiểu
+ - rxdart : chưa tìm hiểu
+ - audio_video_progress_bar : chưa tìm hiểu
 
-This project is a starting point for a Flutter application.
+ 
+# các kiến thức học được
+ - xem lại được mobx, api và route, model
 
-A few resources to get you started if this is your first Flutter project:
+ - dùng screenutil để tuỳ chỉnh kích thước theo tỉ lệ màn hình:
+  + designSize (Size(w, h)) : kích thước mặc định của toàn màn hình
+  + minTextAdapt (bool) : thay đổi cỡ chữ theo tỉ lệ màn hình
+  + splitScreenMode (bool) : nhận biết giao diện khi ở chế độ chia đôi màn hình
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ - ThemeData của Material :
+  + sử dụng Material3 : Có thể xem thêm ở GG => Túm cái váy lại là dùng tốt hơn
+  + colorScheme : Định nghĩa màu xuyên suốt cho ứng dụng
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# MusicAppNew" 
+ - ClipRRect : dùng để bo góc ảnh
+
+ - Nếu cần truyền 2 tham số agruments thì có thể tạo 1 Map or 1 List (tham khảo agruments của Playing) 
+
+ - cách dùng showBottomSheet trong 'lib\screens\home\home.dart' 
+
+ - trong dùng pretty_dio_logger trong dio
+
+ - RotationTransition: ảnh xoay (CHƯA TÌM HIỂU)
+
+ - FadeInImage.assetNetwork : (CHƯA TÌM HIỂU)
+
+ - imageErrorBuilder : ảnh lỗi (CHƯA TÌM HIỂU)
+
+ 
+
+
+
+# công việc tiếp theo
+ - thiết kế route                      (done)
+ - custom api                          (done)
+ - custom mobx                         (done)
+ - màn hình splash                     (done)
+    + dùng Future delay                (done) => Bản sau update lại splash 
+ - màn hình screens đang có lỗi        (done)
+ - tìm hiểu sliding_clipper_nar_bar    (done)
+ - xử lý lỗi agruments                 (done)
+ - tiếp tục làm playing
+ (https://youtu.be/87d4sQMnf1U?t=396)
+ - tìm hiểu ListView.sparated ở dưới
+ - Xử lý lỗi
+
+
+# tìm hiểu thêm
+ - CupertinoPageScaffold
+ - Divider 
+ - ListView.sparated
+ - RotationTransition
+ - RotationTransition
+ - FadeInImage.assetNetwork
+ - imageErrorBuilder
+ - just_audio_background
+
+# tương lai
+ - icon động : Lottie
+ - thay đổi : splash screen
+
+
